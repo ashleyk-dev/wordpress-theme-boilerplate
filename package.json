@@ -1,0 +1,34 @@
+{
+    "name": "<theme>",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "devDependencies": {
+      "autoprefixer": "^9.7.6",
+      "sass": "latest",
+      "onchange": "^5.2.0",
+      "postcss-cli": "latest"
+    },
+    "scripts": {
+      "build:sass": "sass assets/sass/style.scss style.css",
+        "prefix": "npm run build:sass && postcss --no-map style.css --use=autoprefixer --output=style.css",
+        "start": "onchange \"assets/sass/**/*.scss\" -- npm run prefix"
+    },
+    "browserslist": [
+      "last 2 versions"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "Repo/Path"
+    },
+    "keywords": [
+      "SASS"
+    ],
+    "author": "Ismail Farooq + Ashley",
+    "license": "ISC",
+    "homepage": "Path",
+    "dependencies": {
+      "postcss": "latest"
+    }
+  }
+  

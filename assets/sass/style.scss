@@ -1,0 +1,22 @@
+/*
+ Theme Name:   <theme>
+ Theme URI:    <author>
+ Description:  Custom <Company> Theme
+ Author:       <author>
+ Author URI:   <author>
+ Version:      1.0
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  <theme>
+
+*/
+//ALL CSS IS COMPILED INTO STYLE.CSS; ALL CSS CHANGES SHOULD BE MADE TO THE SASS FILES
+
+
+// include global styles & variables next, then helpers
+@import './globals-variables';
+@import './helpers';
+// main site styles
+@import './header';
+@import './footer';
+
