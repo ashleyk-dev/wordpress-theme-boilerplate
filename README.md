@@ -4,7 +4,7 @@
 
 ---
 ### Do This First:
-- put .gitignore in root dir
+- put .gitignore in root dir or your Wordpress project (not the root dir of the theme)
 - rename the theme directory 
 - search for __\<theme\>__ & replace it with your theme name
 - search for __\<company\>__ & replace it with the name of the company
